@@ -1,8 +1,5 @@
-[Competition](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/)
+# [DengAI: Predicting Disease Spread](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/)
 
-Your goal is to predict the `total_cases` label for each `(city, year, weekofyear)` in the test set. There are two cities, 
-San Juan and Iquitos, with test data for each city spanning 5 and 3 years respectively. You will make one 
-submission that contains predictions for both cities. 
-The data for each city have been concatenated along with a city column indicating the source: `sj` for Sae Juan 
-and `iq` for Iquitos. The test set is a pure future hold-out, meaning the test data are sequential 
-and non-overlapping with any of the training data. Throughout, missing values have been filled as `NaN`s.
+  It can be seen that the transmission of Dengue fever is related to various climate variables such as temperature and precipitation. Although the relationship between transmission of Dengue with climate variables is complex, number of experts argue that climate change is likely to produce a great effect on the spread of Dengue fever. 
+The problem we are trying to solve is, to predict the number of dengue cases (number of patients who are caught with Dengue) each week (in each location) based on environmental variables describing changes in temperature, precipitation, vegetation etc.
+  The competition provides a data set containing around 1450 entries, of climate conditions and reported dengue cases in two cities; San Juan and Iquitos. The goal is to predict the total_cases label for each (city, year, weekofyear) in the test set.
