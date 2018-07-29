@@ -12,6 +12,6 @@
 ### [Presentation - CS4622 Machine Learning](https://github.com/ThejanRupasinghe/DengAI/blob/master/Final%20Presentation%20-%20Machine%20Learning%20Project%20-%20Group%2016.pdf)
 
 ## Contents
-+ Root directory contains Jupyter Notebook files of various attempts we made using different data pre-processing methods and machine learning alogorithms.
++ Root directory contains Jupyter Notebook files of various attempts we made using different data pre-processing methods and machine learning algorithms.
 + ```dataset``` directory contains the downloaded dataset csv files from [DrivenData competition](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/data/).
 + ```results``` directory contains the files we  submitted to the competition.
